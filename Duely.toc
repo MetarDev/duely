@@ -3,14 +3,16 @@
 ## Title: Duely
 ## Notes: An addon for organizing duel tournaments
 ## Author: meterdev
-## SavedVariablesPerCharacter: Duely.RegisteredPlayers
+## SavedVariablesPerCharacter: RegisteredPlayers
+## SavedVariablesPerCharacter: Pairings
 
 Duely.lua
 
 # Utils
+src/Utils/RegistrationBooth.lua
 src/Utils/TournamentManager.lua
 
 # Commands
-src/Commands/ListPlayers.lua
-src/Commands/RegisterPlayer.lua
+src/Commands/RegistrationBooth.lua
+src/Commands/TournamentManager.lua
 
